@@ -1,12 +1,13 @@
 //
 //  joemAppDelegate.m
-//  calculatorJOEM
+//  calculatorCopy
 //
 //  Created by Joe Morris on 5/20/14.
 //  Copyright (c) 2014 joemdesign, llc. All rights reserved.
 //
 
 #import "joemAppDelegate.h"
+#import "joemViewController.h"
 
 @implementation joemAppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    //THIS IS SUPER IMPORTANT FOR IT TO SHOW UP AT ALL.
+    joemViewController *calculatorVC = [[joemViewController alloc] init];
+    self.window.rootViewController = calculatorVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -27,7 +31,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

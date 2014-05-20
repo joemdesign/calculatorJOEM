@@ -19,6 +19,8 @@
 		DE423996192BD9D500929E28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE42397E192BD9D400929E28 /* UIKit.framework */; };
 		DE42399E192BD9D500929E28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE42399C192BD9D500929E28 /* InfoPlist.strings */; };
 		DE4239A0192BD9D500929E28 /* calculatorJOEMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE42399F192BD9D500929E28 /* calculatorJOEMTests.m */; };
+		DE4239AC192BDA2C00929E28 /* joemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4239AA192BDA2C00929E28 /* joemViewController.m */; };
+		DE4239AD192BDA2C00929E28 /* joemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4239AB192BDA2C00929E28 /* joemViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		DE42399B192BD9D500929E28 /* calculatorJOEMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calculatorJOEMTests-Info.plist"; sourceTree = "<group>"; };
 		DE42399D192BD9D500929E28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE42399F192BD9D500929E28 /* calculatorJOEMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorJOEMTests.m; sourceTree = "<group>"; };
+		DE4239A9192BDA2C00929E28 /* joemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joemViewController.h; sourceTree = "<group>"; };
+		DE4239AA192BDA2C00929E28 /* joemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = joemViewController.m; sourceTree = "<group>"; };
+		DE4239AB192BDA2C00929E28 /* joemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = joemViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				DE423989192BD9D400929E28 /* joemAppDelegate.h */,
 				DE42398A192BD9D400929E28 /* joemAppDelegate.m */,
+				DE4239AA192BDA2C00929E28 /* joemViewController.m */,
+				DE4239A9192BDA2C00929E28 /* joemViewController.h */,
+				DE4239AB192BDA2C00929E28 /* joemViewController.xib */,
 				DE42398C192BD9D400929E28 /* Images.xcassets */,
 				DE423981192BD9D400929E28 /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				DE423985192BD9D400929E28 /* InfoPlist.strings in Resources */,
 				DE42398D192BD9D400929E28 /* Images.xcassets in Resources */,
+				DE4239AD192BDA2C00929E28 /* joemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +251,7 @@
 			files = (
 				DE423987192BD9D400929E28 /* main.m in Sources */,
 				DE42398B192BD9D400929E28 /* joemAppDelegate.m in Sources */,
+				DE4239AC192BDA2C00929E28 /* joemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
